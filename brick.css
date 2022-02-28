@@ -1,0 +1,117 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color: rgb(133, 209, 209); 
+    padding-bottom: 50px;
+    padding-right: 250px;
+}
+
+body{
+    background-color:rgb(133, 209, 209); 
+}
+
+.blockgame{
+    display:grid;
+}
+
+.header{
+    background-color: black;
+    height: 2em; 
+    margin: 0; 
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    text-align: center;
+    flex-direction: row;
+}
+
+
+.blockgame{
+    height: 50em;
+    margin: 2em;
+    background-color: black; 
+    /* display: grid;
+    grid-template-rows: repeat(12 ,1fr);   */
+    /* grid-template-columns: auto auto auto; */
+}
+
+.redcontainer{
+    display: grid;
+    grid-template-columns: repeat(12, auto);
+    grid-template-rows: 2;
+    grid-auto-rows: 26px;
+    grid-gap: 0px;
+    height: 100px;
+    padding-top: 26px;
+    margin: 0;
+}
+
+.red{
+    height: 25px;
+    width: 100%;
+    background-color: red; 
+    border: 1px solid black; 
+    padding: 0;
+    margin: 0;  
+}
+
+.yellow{
+    width: 100%;
+    height: 25px;
+    background-color: yellow; 
+    border: 1px solid black; 
+    padding: 0;
+    margin:
+}
+.blue{
+    width: 100%;
+    height: 25px;
+    background-color: blue; 
+    border: 1px solid black; 
+    padding: 0;
+    margin:
+}
+.green{
+    width: 100%;
+    height: 25px;
+    background-color: green; 
+    border: 1px solid black; 
+    padding: 0;
+    margin:
+}
+
+.dot{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+}
+
+.dot2{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    position: relative;
+    left: 92px;
+}
+
+.dot3{
+    height: 10px;
+    width: 10px;
+    background-color: white;
+    position: relative;
+    left: 100px;
+    top: 25px;
+}
+
+.paddle{
+    height: 15px;
+    width: 200px;
+    background-color:rgb(133, 209, 209); 
+    position: absolute;
+    top: 840px;
+    left: 500px;
+}
